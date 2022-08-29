@@ -4,7 +4,6 @@ s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
  
 ip = input("Enter Target IP: ")
 port = int(input("Enter Target Port: "))
-sleep = float(input("Sleep: "))
  
 s.connect((ip, port))
  
